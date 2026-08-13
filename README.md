@@ -31,7 +31,6 @@ The following areas were tested:
 - Retesting
 
 ## 📊 Test Execution
-
 | Metric | Result |
 |---|---:|
 | Total Test Cases | 20 |
