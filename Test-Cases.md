@@ -15,19 +15,19 @@ TC-LOGIN-007| Login with invalid credentials| Login page is accessible| Enter in
 
 TC ID| Test Case| Preconditions| Test Steps| Expected Result| Actual Result| Status
 TC-PROD-001| View product details| Products page is accessible| Open a product| Product name, price and details should be displayed correctly| Product details displayed correctly| Pass
-TC-PROD-002| Add product to cart| Product is available| Click Add to Cart| Product should be added to cart| Product added to cart successfully| Pass
-TC-PROD-003| Remove product from cart| Product is already in cart| Open cart and click Remove| Product should be removed from cart| Product removed successfully| Pass
+TC-PROD-002| Add product to cart| Product is available| Click Add to Cart| Product should be added to the cart| Product added to cart successfully| Pass
+TC-PROD-003| Remove product from cart| Product is already in cart| Open cart and click Remove| Product should be removed from the cart| Product removed successfully| Pass
 TC-PROD-004| Verify product price| Products page is accessible| Open product and observe price| Correct product price should be displayed| Product price displayed correctly| Pass
 
 3. Cart Testing
 
 TC ID| Test Case| Preconditions| Test Steps| Expected Result| Actual Result| Status
 TC-CART-001| Verify added product in cart| Product has been added| Open cart| Added product should be displayed with correct details and price| Product details and price displayed correctly| Pass
-TC-CART-002| Continue shopping after removing product| Product is in cart| Remove product and select Continue Shopping| User should be returned to product/shop page| User returned to products page| Pass
+TC-CART-002| Continue shopping after removing product| Product is in cart| Remove product and select Continue Shopping| User should be returned to the product/shop page| User returned to products page| Pass
 TC-CART-003| Verify empty cart| Cart is accessible| Remove all products from cart| Cart should display no selected products| Cart displayed without selected product| Pass
 TC-CART-004| Verify cart product details| Product is in cart| Open cart and review product information| Product name and price should be displayed correctly| Product information displayed correctly| Pass
 TC-CART-005| Remove product from cart| Product is in cart| Click Remove| Selected product should be removed| Product removed successfully| Pass
-TC-CART-006| Add multiple products to cart| Products are available| Add more than one product| Selected products should be added to cart| Products added successfully| Pass
+TC-CART-006| Add multiple products to cart| Products are available| Add more than one product| Selected products should be added to the cart| Products added successfully| Pass
 TC-CART-007| Verify cart count| Product is available| Add a product and observe cart icon| Cart count should update correctly| Cart count updated correctly| Pass
 TC-CART-008| Verify cart after re-login| User has selected products| Log out and log in again| Cart should retain products according to application behavior| Cart behavior verified successfully| Pass
 
