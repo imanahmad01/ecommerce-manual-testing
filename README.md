@@ -75,3 +75,7 @@ The goal of this project is to demonstrate practical manual QA skills through st
 - Regression Testing
 - Retesting
 - QA Documentation
+
+## Test Evidence
+
+Screenshots captured during test execution are available in the [Test-Evidence](Test-Evidence) folder.
